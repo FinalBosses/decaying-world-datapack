@@ -18,4 +18,4 @@ execute unless score @s decay_hit matches 1 positioned ~ ~-15 ~ unless block ~ ~
 execute unless score @s decay_hit matches 1 positioned ~ ~-16 ~ unless block ~ ~ ~ #minecraft:air run function dw:hit
 
 # if no blocks found, try the next region below
-execute unless score @s decay_hit matches 1 positioned ~ ~-16 ~ run function dw:probe_down_air
+#execute unless score @s decay_hit matches 1 positioned ~ ~-16 ~ run function dw:probe_down_air

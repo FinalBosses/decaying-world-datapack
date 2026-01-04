@@ -1,6 +1,7 @@
 # start loop
 schedule function dw:step 20t
-schedule function dw:cave_detection_wrapper 15t
+schedule function dw:cave_detection_wrapper 17t
+schedule function dw:probe 18t
 
 # nice message
 tellraw @a ["",{text:"MM",obfuscated:true,color:"gold"},{text:" Extra Low selected. Decay is starting! ",color:"gold"},{text:"MM",obfuscated:true,color:"gold"},{text:"\n"},{text:"Stop at any moment by running ",color:"gold"},{text:"/function dw:stop",underlined:true,click_event:{action:"suggest_command",command:"/function dw:stop"},hover_event:{action:"show_text",value:[{text:"Stop decay"}]}}]
